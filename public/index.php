@@ -15,5 +15,8 @@ $app->get('/', function (Request $request, Response $response, $args) {
 
 include_once "../src/api/user.php";
 include_once "../src/api/voting.php";
+include_once "../src/api/kandidat.php";
+include_once "../src/api/role.php";
+include_once "../src/api/perolehansuara.php";
 
 $app->run();
